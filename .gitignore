@@ -1,0 +1,23 @@
+# Secrets
+.env
+*.env
+
+# Python / notebooks
+__pycache__/
+*.pyc
+.venv/
+.ipynb_checkpoints/
+
+# Poetry / lockfiles
+poetry.lock
+
+# OS / editor junk
+.DS_Store
+Thumbs.db
+
+# Large data artifacts
+data/
+*.csv
+*.parquet
+*.ckpt
+
